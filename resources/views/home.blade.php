@@ -15,7 +15,7 @@
         <td>{{$user->email}}</td>
         <td>{{$user->role}}</td>
         <td>
-        <a class="btn btn-warning" href="{{route('edit_user', ['id'=>$user->id])}}">ARLYN UPDATE</a>
+        <a class="btn btn-warning" href="{{route('edit_user', ['id'=>$user->id])}}">AIVAN AQUINO</a>
         <a class="btn btn-danger" href="{{route('delete_user', ['id'=>$user->id])}}">Delete</a>
         <a class="btn btn-primary" href="{{route('user_subjects',['id'=>$user->id])}}">Subjects</a>
         </td>
